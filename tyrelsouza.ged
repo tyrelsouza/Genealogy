@@ -3,7 +3,7 @@
 2 VERS AIO64-5.1.4-1
 2 NAME Gramps
 1 DATE 20 FEB 2024
-2 TIME 21:19:51
+2 TIME 21:35:20
 1 SUBM @SUBM@
 1 FILE C:\Users\Tyrel\tyrelsouza.ged
 1 COPR Copyright (c) 2024 .
@@ -3315,21 +3315,24 @@
 2 DATE 21 FEB 2024
 3 TIME 01:32:57
 0 @I0224@ INDI
-1 NAME Deacon Calvin /Barrett/
-2 GIVN Deacon Calvin
+1 NAME Calvin /Barrett/
+2 GIVN Calvin
 2 SURN Barrett
+2 NPFX Deacon
 1 SEX M
 1 BIRT
 2 DATE 1770
 1 DEAT
 2 DATE 22 MAY 1862
+1 FAMC @F0118@
+2 PEDI birth
 1 FAMS @F0112@
 1 OBJE
 2 FORM URL
 2 FILE https://www.findagrave.com/memorial/144017913/calvin_barrett
 1 CHAN
 2 DATE 21 FEB 2024
-3 TIME 01:55:40
+3 TIME 02:26:41
 0 @I0225@ INDI
 1 NAME Mary /Titus/
 2 GIVN Mary
@@ -3367,10 +3370,11 @@
 2 DATE 21 FEB 2024
 3 TIME 02:17:28
 0 @I0227@ INDI
-1 NAME Deacon Joseph /Titus/ Jr
-2 GIVN Deacon Joseph
+1 NAME Joseph /Titus/ Jr
+2 GIVN Joseph
 2 SURN Titus
 2 NSFX Jr
+2 NPFX Deacon
 1 SEX M
 1 BIRT
 2 DATE 8 MAR 1751
@@ -3379,7 +3383,7 @@
 1 FAMS @F0113@
 1 CHAN
 2 DATE 21 FEB 2024
-3 TIME 02:09:04
+3 TIME 02:23:24
 0 @I0228@ INDI
 1 NAME Jedediah /Bigelow/
 2 GIVN Jedediah
@@ -3468,6 +3472,42 @@
 1 CHAN
 2 DATE 21 FEB 2024
 3 TIME 02:18:46
+0 @I0236@ INDI
+1 NAME Zadock /Barrett/
+2 GIVN Zadock
+2 SURN Barrett
+1 SEX M
+1 BIRT
+2 DATE 1740
+1 DEAT
+2 DATE 3 FEB 1813
+1 FAMC @F0119@
+2 PEDI birth
+1 FAMS @F0118@
+1 OBJE
+2 FORM URL
+2 TITL notes in obit of wife
+2 FILE https://www.findagrave.com/memorial/141161594/esther_barrett
+1 OBJE
+2 FORM URL
+2 FILE https://groups.io/g/BarrettFamily/topic/barrett_lines_from_hinsdale/70889833?p=
+1 NOTE @N0004@
+1 CHAN
+2 DATE 21 FEB 2024
+3 TIME 02:34:01
+0 @I0237@ INDI
+1 NAME Esther /Davis/
+2 GIVN Esther
+2 SURN Davis
+1 SEX F
+1 BIRT
+2 DATE 21 AUG 1749
+1 DEAT
+2 DATE 15 SEP 1848
+1 FAMS @F0118@
+1 CHAN
+2 DATE 21 FEB 2024
+3 TIME 02:26:41
 0 @F0000@ FAM
 1 HUSB @I0002@
 1 WIFE @I0003@
@@ -4289,8 +4329,24 @@
 1 CHAN
 2 DATE 21 FEB 2024
 3 TIME 02:18:46
+0 @F0118@ FAM
+1 HUSB @I0236@
+1 WIFE @I0237@
+1 CHIL @I0224@
+1 CHAN
+2 DATE 21 FEB 2024
+3 TIME 02:26:41
+0 @F0119@ FAM
+1 CHIL @I0236@
+1 CHAN
+2 DATE 21 FEB 2024
+3 TIME 02:33:15
 0 @N0000@ NOTE https://www.findagrave.com/memorial/202817585/esther-sarah-wallace
 0 @N0001@ NOTE http://www554.pair.com/vtandrew/family/i0016622.htm
 0 @N0002@ NOTE http://www554.pair.com/vtandrew/family/i0016622.htm
 0 @N0003@ NOTE http://www554.pair.com/vtandrew/family/i0016622.htm
+0 @N0004@ NOTE Unclear if parents are Amos and Elizabeth Barrett, or Isaac and Sar
+1 CONC ah (Newton) Barrett
+1 CONT 
+1 CONT Maybe dead end.
 0 TRLR
